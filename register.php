@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include 'config.php'; // Sertakan file koneksi ke database
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Ambil data dari formulir
@@ -19,6 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 alert('Data baru berhasil ditambahkan.');
                 window.location.href = 'login.html';
               </script>";
+        exit();
     } else {
         echo "Error: " . $stmt->error;
     }

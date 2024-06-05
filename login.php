@@ -1,5 +1,7 @@
 <?php
-include 'config.php';
+session_start(); // Mulai session untuk menyimpan data user yang login
+
+include 'config.php'; // Sertakan file koneksi ke database
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Ambil data dari formulir
@@ -17,14 +19,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // User ditemukan, verifikasi password
         $row = $result->fetch_assoc();
         if (password_verify($password, $row['password'])) {
-            // Password benar, buat session dan arahkan ke halaman selanjutnya
-            session_start();
+            // Password benar, simpan data user ke session
             $_SESSION['user_id'] = $row['id'];
             $_SESSION['username'] = $row['username'];
             echo "<script>
-            alert('login berhasil.');
-            window.location.href = 'index.html';
-          </script>";
+                    alert('Login berhasil.');
+                    window.location.href = 'index.html';
+                  </script>";
             exit();
         } else {
             // Password salah
