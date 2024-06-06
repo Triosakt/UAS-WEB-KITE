@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if ($stmt->execute()) {
         echo "<script>
-                alert('Data baru berhasil ditambahkan.');
+                alert('Berhasil membuat akun.');
                 window.location.href = 'login.html';
               </script>";
         exit();

@@ -1,14 +1,14 @@
 <?php
-session_start(); // Mulai session untuk menyimpan data user yang login
+session_start(); // Start the session to store user data
 
-include 'config.php'; // Sertakan file koneksi ke database
+include 'config.php'; // Include the database connection file
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Ambil data dari formulir
+    // Get data from the form
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    // Query untuk mencari user berdasarkan username
+    // Query to find user by username
     $sql = "SELECT * FROM users WHERE username = ?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("s", $username);
@@ -16,33 +16,34 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $result = $stmt->get_result();
 
     if ($result->num_rows == 1) {
-        // User ditemukan, verifikasi password
+        // User found, verify password
         $row = $result->fetch_assoc();
         if (password_verify($password, $row['password'])) {
-            // Password benar, simpan data user ke session
+            // Password is correct, save user data to session
             $_SESSION['user_id'] = $row['id'];
             $_SESSION['username'] = $row['username'];
+            $_SESSION['loggedin'] = true;
             echo "<script>
                     alert('Login berhasil.');
-                    window.location.href = 'index.html';
+                    window.location.href = 'index.php';
                   </script>";
             exit();
         } else {
-            // Password salah
+            // Incorrect password
             echo "<script>
                     alert('Password yang Anda masukkan salah.');
                     window.location.href = 'login.html';
                   </script>";
         }
     } else {
-        // User tidak ditemukan
+        // User not found
         echo "<script>
                 alert('Username yang Anda masukkan tidak terdaftar.');
                 window.location.href = 'login.html';
               </script>";
     }
 
-    // Tutup koneksi
+    // Close connection
     $stmt->close();
     $conn->close();
 }
