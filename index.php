@@ -26,36 +26,30 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid d-flex align-items-center justify-content-between">
-      <a class="logo d-flex align-items-center  me-auto me-lg-0">
-        <h1>Virtual <span> gallery</span></h1>
-      </a>
+<header id="header" class="header d-flex align-items-center fixed-top">
+  <div class="container-fluid d-flex align-items-center justify-content-between">
+    <a href="index.php" class="logo d-flex align-items-center">
+      <img src="assets/img/logo.png" alt="Logo" class="img-fluid logo-img">
+      <h1 class="logo-text ms-2">Virtual Gallery</h1>
+    </a>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.php" class="active">Home</a></li>
-          <li class="dropdown"><a href="#">Gallery <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="lukisan.html">Lukisan</a></li>
-              <li><a href="patung.html">Patung</a></li>
-              <li><a href="fotografi.html">Fotografi</a></li>
-            </ul>
-          </li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="logout.php">Log out</a></li>
-        </ul>
-      </nav><!-- .navbar -->
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a href="index.php" class="active">Home</a></li>
+        <li class="dropdown"><a href="#">Gallery <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <ul>
+            <li><a href="lukisan.html">Lukisan</a></li>
+            <li><a href="patung.html">Patung</a></li>
+            <li><a href="fotografi.html">Fotografi</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="logout.php">Log out</a></li>
+      </ul>
+    </nav><!-- .navbar -->
+  </div>
+</header><!-- End Header -->
 
-      <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
-
-    </div>
-  </header><!-- End Header -->
 
  <!-- ======= Hero Section ======= -->
 <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center">
@@ -188,12 +182,18 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     </section><!-- End Gallery Section -->
   </main><!-- End #main -->
 
-  <!-- footer -->
-	<footer class="footer">
-		<div class="container">
-			<small>&copy; 2024 Virtual Gallery. All Rights Reserved.</small>
-		</div>
-	</footer>
+  <!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-social-links">
+      <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+    <small>&copy; 2024 Virtual Gallery. All Rights Reserved.</small>
+  </div>
+</footer>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

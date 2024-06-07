@@ -56,27 +56,6 @@ span {
 }
 
 /*--------------------------------------------------------------
-# Page Header
---------------------------------------------------------------*/
-.page-header {
-  padding: 120px 0 60px 0;
-  min-height: 30vh;
-  position: relative;
-}
-
-.page-header h2 {
-  font-size: 56px;
-  font-weight: 500;
-  color: #fff;
-  font-family: var(--font-secondary);
-}
-
-
-.page-header p {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 .header {
@@ -84,6 +63,12 @@ span {
   z-index: 997;
   padding: 30px 0;
   background-color: #000;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
 .header .logo h1 {
@@ -100,29 +85,24 @@ span {
   line-height: 0;
 }
 
-
-.header .header-social-links {
-  padding-right: 15px;
+/* CSS for the logo and text alignment */
+.logo-img {
+  max-height: 40px; /* Adjust the height as needed */
 }
 
-.header .header-social-links a {
-  color: rgba(255, 255, 255, 0.5);
-  padding-left: 15px;
-  display: inline-block;
-  line-height: 0px;
-  transition: 0.3s;
-  font-size: 16px;
+.logo-text {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  color: #fff; /* Ensure text color contrasts with background */
 }
 
-.header .header-social-links a:hover {
-  color: #fff;
-}
+
 
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
 .navbar {
   padding: 0;
+  margin-right: 30px;
 }
 
 .navbar ul {
@@ -266,7 +246,7 @@ span {
 
 .gallery .gallery-item img {
   transition: 0.3s;
-   /* Menyesuaikan ukuran gambar agar tidak melebihi lebar kontainer */
+  max-width: 100%; /* Menyesuaikan ukuran gambar agar tidak melebihi lebar kontainer */
   display: block; /* Memastikan gambar tampil dengan baik dalam layout */
   height: auto; /* Memastikan proporsi gambar tetap terjaga */
 }
@@ -327,7 +307,30 @@ span {
 .footer {
   background: #000;
   color: white;
-  padding: 10px 0;
+  padding: 20px 0; 
   text-align: center;
+}
+
+.footer .footer-social-links {
+  padding-right: 15px;
+  margin-bottom: 10px; 
+}
+
+.footer .footer-social-links a {
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 15px;
+  display: inline-block;
+  line-height: 1; 
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.footer .footer-social-links a:hover {
+  color: #fff;
+}
+
+.footer small {
+  display: block;
+  margin-top: 10px;
 }
 

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Login</title>
+  <title>Registrasi</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="assets/css/login.css" rel="stylesheet">
@@ -11,12 +11,14 @@
         <div class="form">
           <h2>Registrasi</h2>
           <form class="register-form" action="register.php" method="post">
-            <input type="text" name="username" placeholder="username" required/>
-            <input type="password" name="password" placeholder="password" required/>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="confirm_password" placeholder="Konfirmasi Password" required>
             <button type="submit">Kirim</button>
             <p class="message">Sudah terdaftar? <a href="login.html">Masuk</a></p>
           </form>
         </div>
-      </div>
+    </div>
 </body>
 </html>
