@@ -35,10 +35,10 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
     <nav id="navbar" class="navbar">
       <ul>
-        <li><a href="index.php" class="active">Home</a></li>
-        <li class="dropdown"><a href="#">Gallery <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+        <li><a href="index.php">Home</a></li>
+        <li class="dropdown"><a href="#" class="active">Gallery <i class="bi bi-chevron-down dropdown-indicator"></i></a>
           <ul>
-            <li><a href="lukisan.php">Lukisan</a></li>
+            <li><a href="lukisan.php" class="active">Lukisan</a></li>
             <li><a href="patung.php">Patung</a></li>
             <li><a href="fotografi.php">Fotografi</a></li>
           </ul>
