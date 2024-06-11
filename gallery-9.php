@@ -51,9 +51,8 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li><a href="index.php" class="active">Home</a></li>
+          <li class="dropdown"><a href="#">Gallery <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="lukisan.php">Lukisan</a></li>
               <li><a href="patung.php">Patung</a></li>

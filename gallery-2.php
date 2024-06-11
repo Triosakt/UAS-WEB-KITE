@@ -18,6 +18,9 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -51,9 +54,8 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li><a href="index.php" class="active">Home</a></li>
+          <li class="dropdown"><a href="#">Gallery <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="lukisan.php">Lukisan</a></li>
               <li><a href="patung.php">Patung</a></li>
@@ -138,6 +140,9 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
       <small>&copy; 2024 Virtual Gallery. All Rights Reserved.</small>
     </div>
   </footer>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
