@@ -83,7 +83,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
               <img src="./assets/img/Picsart_24-06-08_01-03-05-713.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="./assets/img/Picsart_24-06-08_01-03-05-713.jpg" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="gallery-2.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
@@ -92,7 +92,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
               <img src="./assets/img/Picsart_24-06-08_01-09-12-250.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="./assets/img/Picsart_24-06-08_01-09-12-250.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="gallery-3.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
@@ -101,7 +101,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
               <img src="./assets/img/Picsart_24-06-08_01-06-48-423.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="./assets/img/Picsart_24-06-08_01-06-48-423.jpg" title="Gallery 4" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="gallery-4.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->

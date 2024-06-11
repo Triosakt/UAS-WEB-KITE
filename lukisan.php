@@ -74,7 +74,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
             <img src="./assets/img/pexels-daniel-ape-795693.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="./assets/img/pexels-daniel-ape-795693.jpg" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="gallery-5.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
@@ -83,7 +83,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
               <img src="./assets/img/pexels-eduardo-romero-817034-1707640.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="./assets/img/pexels-eduardo-romero-817034-1707640.jpg" title="Gallery 6" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="gallery-6.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
@@ -92,7 +92,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
               <img src="./assets/img/pexels-digitalbuggu-165792.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="./assets/img/pexels-digitalbuggu-165792.jpg" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="gallery-7.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
@@ -101,7 +101,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
               <img src="./assets/img/1571411017.webp" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="./assets/img/1571411017.webp" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="gallery-8.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->

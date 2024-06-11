@@ -74,39 +74,39 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     <div class="container">
 
       <div class="image-container">
-      <img src="./assets/img/pexels-eduardo-romero-817034-1707640.jpg" alt="Placeholder image" width="400" height="400">
+      <img src="./assets/img/1571411017.webp" alt="Placeholder image" width="400" height="400">
       </div>
 
       <div class="row justify-content-between gy-4 mt-3 mb-4">
 
         <div class="col-lg-8">
           <div class="gallery-description text-dark">
-            <h2>This is an example of portfolio detail</h2>
+            <h2>Lukisan Abstrak</h2>
             <p>
-              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+            Lukisan Abstrak karya Zen Relief adalah sebuah karya seni yang memukau dengan penafsiran yang unik tentang keindahan dan ekspresi. Dengan penggunaan warna-warna yang kuat dan berani, Zen Relief menghadirkan komposisi yang dinamis dan penuh energi.
             </p>
             <p>
-              Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
+            Melalui sapuan-sapuan kuas yang bebas dan spontan, lukisan ini mengajak penonton untuk merenung dan menafsirkan maknanya sendiri. Dengan kebebasan ekspresi yang ditampilkan, Zen Relief menawarkan pengalaman visual yang mendalam dan memikat.
             </p>
 
             <div class="testimonial-item">
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                Lukisan Abstrak ini memperlihatkan kedalaman pikiran dan emosi seniman, serta memberikan ruang bagi penonton untuk terhubung dengan karya tersebut melalui interpretasi pribadi mereka. Ini adalah sebuah karya yang tidak hanya memikat mata, tetapi juga menginspirasi dan memancing refleksi tentang dunia dan kehidupan.
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
               <div>
-                <h3>Sara Wilsson</h3>
-                <img src="https://placehold.co/200x200" class="testimonial-img mb-3" alt="" width="200" height="200">
+                <h3>Zen Relief</h3>
+                <img src="./assets/img/1678725180225.jpeg" class="testimonial-img mb-3" alt="" width="200" height="200">
                 <h4>Designer</h4>
               </div>
             </div>
 
             <p>
-              Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
+            Lukman Zen adalah seorang seniman multitalenta yang menggabungkan kreativitas dalam berbagai bidang seperti seni visual, desain grafis, dan musik. Berbasis di Garut Kota, Jawa Barat, Indonesia, Lukman dikenal sebagai seorang Content Creator, Digital Marketer, dan Visual Artist yang berbakat. Dalam karirnya, Lukman telah menunjukkan keahlian dalam menciptakan karya-karya yang menginspirasi dan memikat. Dari desain grafis hingga seni visual, Lukman memiliki kemampuan untuk menyampaikan pesan-pesan yang kuat melalui karyanya.
 
             <p>
-              Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
+            Sebagai seorang Content Creator, Lukman menciptakan konten yang beragam, menggabungkan elemen-elemen visual dan musik untuk menghasilkan karya-karya yang menarik perhatian dan membangkitkan ide-ide baru. Dengan latar belakang pendidikan di Universitas Pendidikan Indonesia, Lukman telah mengasah bakat dan keahliannya dalam berbagai bidang seni. Setiap kali ia mengunggah desain dan karya seni, Lukman berharap agar karya-karyanya dapat dinikmati dengan bahagia dan damai bersama, serta dapat menghasilkan inspirasi baru bagi orang lain.
             </p>
 
           </div>
@@ -116,9 +116,9 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
           <div class="gallery-info text-dark">
             <h3>Gallery information</h3>
             <ul>
-              <li><strong>Kategori</strong> Patung</li>
-              <li><strong>Tanggal Pembuatan</strong> 01 March, 2022</li>
-              <li><a href="#" class="btn-visit align-self-start">Lokasi</a></li>
+              <li><strong>Kategori</strong> Lukisan</li>
+              <li><strong>Tanggal Pembuatan</strong> 01 Maret, 2022</li>
+              <li><a href="#" class="btn-visit align-self-start">Garut, Jawa Barat</a></li>
             </ul>
           </div>
         </div>
