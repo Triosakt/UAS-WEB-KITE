@@ -74,39 +74,39 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     <div class="container">
 
       <div class="image-container">
-      <img src="./assets/img/pexels-eduardo-romero-817034-1707640.jpg" alt="Placeholder image" width="400" height="400">
+      <img src="./assets/img/Picsart_24-06-08_01-06-48-423.jpg" alt="Placeholder image" width="400" height="400">
       </div>
 
       <div class="row justify-content-between gy-4 mt-3 mb-4">
 
         <div class="col-lg-8">
           <div class="gallery-description text-dark">
-            <h2>This is an example of portfolio detail</h2>
+            <h2>Patung Yunani</h2>
             <p>
-              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+            Patung Yunani memainkan peran penting dalam sejarah seni dunia, mencerminkan keterampilan artistik dan memberikan wawasan tentang budaya, agama, dan filosofi Yunani kuno. Bermula dari periode Geometrik (sekitar 900-700 SM) dengan bentuk geometris sederhana, seni patung berkembang menjadi lebih realistis pada periode Arkais (sekitar 700-480 SM) dengan patung Kouros dan Kore yang meski masih kaku, mulai menunjukkan anatomi manusia. Pada periode Klasik (sekitar 480-323 SM), patung Yunani mencapai puncak idealisme dan realisme, dengan karya terkenal seperti Diskobolos oleh Myron dan Doryphoros oleh Polykleitos yang menampilkan proporsi tubuh sempurna dan pose alami. Seni patung semakin dramatis dan ekspresif pada periode Hellenistik (sekitar 323-31 SM), seperti terlihat pada Laocoön dan Putra-Putranya serta Nike dari Samothrace. 
             </p>
             <p>
-              Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
+            Patung-patung ini dibuat dari marmer, perunggu, gading, dan emas, menggunakan teknik pahat langsung dan penuangan perunggu dengan metode lost-wax casting. Pengaruh seni patung Yunani meluas ke seni Romawi dan Renaisans Eropa, dengan estetika dan teknik yang tetap dihargai dan dipelajari hingga hari ini.
             </p>
 
             <div class="testimonial-item">
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                Patung Yunani memiliki sejumlah fakta unik yang menarik. Patung-patung dari periode Arkais sering menampilkan "senyum arkais," senyum khas yang tidak mencerminkan emosi tetapi mungkin dimaksudkan untuk memberi kesan kehidupan pada patung tersebut. Polykleitos, seorang pemahat terkenal dari periode Klasik, menulis sebuah risalah yang disebut "Kanon," yang menjelaskan proporsi ideal tubuh manusia, dan patungnya, Doryphoros (Pembawa Tombak), adalah perwujudan dari prinsip-prinsip ini. Selain itu, banyak patung perunggu Yunani dibuat dengan teknik penuangan "lost-wax" (cire perdue), yang memungkinkan detail halus dan keseimbangan sempurna dalam karya mereka. Patung-patung ini tidak hanya menggambarkan manusia tetapi juga dewa-dewa dan pahlawan mitologi, mencerminkan nilai-nilai budaya dan spiritual Yunani kuno.
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
               <div>
-                <h3>Sara Wilsson</h3>
-                <img src="https://placehold.co/200x200" class="testimonial-img mb-3" alt="" width="200" height="200">
+                <h3>Phidias</h3>
+                <img src="./assets/img/3121856.jpg " class="testimonial-img mb-3" alt="" width="200" height="200">
                 <h4>Designer</h4>
               </div>
             </div>
 
             <p>
-              Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
+            Phidias adalah salah satu seniman paling terkenal dan dihormati dari periode Klasik dalam sejarah Yunani kuno, yang hidup sekitar 480-430 SM. Ia dikenal terutama karena karya-karya patung besar yang menonjolkan keagungan dan keindahan dewa-dewa Yunani. Berikut adalah beberapa aspek penting tentang Phidias dan karyanya:
 
             <p>
-              Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
+            Phidias dianggap sebagai pemahat terbesar dari zaman Klasik Yunani, dan karyanya terus dihormati sebagai puncak dari seni patung Yunani kuno. Karya-karya monumental yang ia ciptakan tidak hanya menunjukkan keahlian teknis yang luar biasa tetapi juga mampu menyampaikan kekuatan spiritual dan simbolis yang mendalam.
             </p>
 
           </div>
@@ -117,8 +117,8 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
             <h3>Gallery information</h3>
             <ul>
               <li><strong>Kategori</strong> Patung</li>
-              <li><strong>Tanggal Pembuatan</strong> 01 March, 2022</li>
-              <li><a href="#" class="btn-visit align-self-start">Lokasi</a></li>
+              <li><strong>Tanggal Pembuatan</strong> abad ke-8 SM hingga abad ke-1 SM</li>
+              <li><a href="#" class="btn-visit align-self-start">Yunani </a></li>
             </ul>
           </div>
         </div>
