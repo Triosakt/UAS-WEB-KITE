@@ -18,6 +18,9 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -71,7 +74,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     <div class="container">
 
       <div class="image-container">
-        <img src="./assets/img/tulang-bawang.jpg" alt="Placeholder image">
+      <img src="./assets/img/pexels-eduardo-romero-817034-1707640.jpg" alt="Placeholder image" width="400" height="400">
       </div>
 
       <div class="row justify-content-between gy-4 mt-3 mb-4">
@@ -94,7 +97,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
               </p>
               <div>
                 <h3>Sara Wilsson</h3>
-                <img src="https://placehold.co/200x200" class="testimonial-img mb-3" alt="">
+                <img src="https://placehold.co/200x200" class="testimonial-img mb-3" alt="" width="200" height="200">
                 <h4>Designer</h4>
               </div>
             </div>
