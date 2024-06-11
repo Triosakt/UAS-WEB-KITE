@@ -74,39 +74,39 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     <div class="container">
 
       <div class="image-container">
-      <img src="./assets/img/pexels-eduardo-romero-817034-1707640.jpg" alt="Placeholder image" width="400" height="400">
+      <img src="./assets/img/Picsart_24-06-08_01-03-05-713.jpg" alt="Placeholder image" width="400" height="400">
       </div>
 
       <div class="row justify-content-between gy-4 mt-3 mb-4">
 
         <div class="col-lg-8">
           <div class="gallery-description text-dark">
-            <h2>This is an example of portfolio detail</h2>
+            <h2>Patung Gajah Mada</h2>
             <p>
-              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+            Patung Gajah Mada adalah sebuah monumen yang menggambarkan sosok Gajah Mada, seorang panglima perang dan tokoh militer legendaris dari Kerajaan Majapahit di Nusantara. Dikenal luas karena Sumpah Palapa-nya, di mana ia berjanji untuk tidak menikmati kenikmatan duniawi sebelum berhasil menyatukan Nusantara di bawah kekuasaan Majapahit, Gajah Mada menjadi simbol persatuan dan kekuatan nasional. Patung ini sering digambarkan dalam pose heroik, biasanya menunggang kuda, lengkap dengan pakaian zirah dan senjata, mencerminkan keberanian dan kepemimpinannya yang luar biasa
             </p>
             <p>
-              Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
+            Sejarah Gajah Mada sendiri sangat erat kaitannya dengan kejayaan Kerajaan Majapahit pada abad ke-14. Sebagai Mahapatih, ia memimpin berbagai ekspedisi militer yang sukses memperluas wilayah Majapahit hingga mencakup hampir seluruh kepulauan Nusantara, termasuk bagian dari Malaysia, Filipina, dan Timor Leste.
             </p>
 
             <div class="testimonial-item">
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                Patung ini tidak hanya menjadi penghormatan atas kontribusi besar Gajah Mada terhadap sejarah Indonesia, tetapi juga menjadi simbol semangat persatuan dan kesatuan bangsa. Banyak patung Gajah Mada yang didirikan di berbagai tempat di Indonesia, baik di museum, alun-alun kota, maupun di lokasi bersejarah lainnya, sebagai pengingat akan warisan budaya dan sejarah yang kaya dari Nusantara.
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
               <div>
-                <h3>Sara Wilsson</h3>
-                <img src="https://placehold.co/200x200" class="testimonial-img mb-3" alt="" width="200" height="200">
+                <h3>I Nyoman Nuarta</h3>
+                <img src="./assets/img/images (1).jpeg" class="testimonial-img mb-3" alt="" width="200" height="200">
                 <h4>Designer</h4>
               </div>
             </div>
 
             <p>
-              Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
+            I Nyoman Nuarta menciptakan patung ini sebagai bagian dari upaya untuk memperingati dan menghormati jasa Gajah Mada dalam sejarah Indonesia.
 
             <p>
-              Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
+            Dengan detail yang sangat halus dan presisi yang tinggi, patung ini menggambarkan Gajah Mada dalam pose heroik, mencerminkan keberanian dan semangat kepemimpinannya yang legendaris. Patung ini tidak hanya menjadi simbol kebanggaan nasional, tetapi juga menjadi inspirasi bagi generasi muda untuk menghargai dan memahami pentingnya persatuan dan kesatuan bangsa.
             </p>
 
           </div>
@@ -117,8 +117,8 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
             <h3>Gallery information</h3>
             <ul>
               <li><strong>Kategori</strong> Patung</li>
-              <li><strong>Tanggal Pembuatan</strong> 01 March, 2022</li>
-              <li><a href="#" class="btn-visit align-self-start">Lokasi</a></li>
+              <li><strong>Tanggal Pembuatan</strong> 19 Desember 2013</li>
+              <li><a href="#" class="btn-visit align-self-start">Bundaran HI, Jakarta</a></li>
             </ul>
           </div>
         </div>
