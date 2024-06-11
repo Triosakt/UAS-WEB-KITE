@@ -57,7 +57,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     <div class="row justify-content-center">
       <div class="col-lg-6 text-center">
         <h2>Lukisan</h2>
-        <p>Galeri seni virtual kami menampilkan koleksi menakjubkan dari lukisan, patung, dan seni digital yang dibuat oleh seniman pemula dan ternama dari seluruh dunia. Dengan gambar beresolusi tinggi, dan deskripsi mendetail, pengunjung dapat menghargai detail rumit dan cerita di balik setiap karya.</p>
+        <p>Selamat datang di galeri lukisan kami di Virtual Art Gallery. Di sini, Anda akan menemukan koleksi yang memukau dari lukisan-lukisan yang menginspirasi, mencakup berbagai gaya, tema, dan teknik. Karya-karya ini merupakan hasil karya seniman-seniman berbakat baik dari kalangan pemula maupun yang sudah terkenal di seluruh dunia.</p>
       </div>
     </div>
   </div>

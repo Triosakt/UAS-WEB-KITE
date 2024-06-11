@@ -57,7 +57,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     <div class="row justify-content-center">
       <div class="col-lg-6 text-center">
         <h2>Patung</h2>
-        <p>Galeri seni virtual kami menampilkan koleksi menakjubkan dari lukisan, patung, dan seni digital yang dibuat oleh seniman pemula dan ternama dari seluruh dunia. Dengan gambar beresolusi tinggi, dan deskripsi mendetail, pengunjung dapat menghargai detail rumit dan cerita di balik setiap karya.</p>
+        <p>Selamat datang di ruang patung di Virtual Art Gallery. Di sini, Anda akan menjumpai kumpulan patung yang mempesona, mencakup beragam gaya dan tema. Setiap patung menghadirkan keunikan dan menangkap perasaan, cerita, dan ide yang dinyatakan oleh seniman. Ayo jelajahi dunia patung bersama kami, dan biarkan diri Anda terpesona oleh keindahan dan kompleksitas setiap karya yang dipamerkan.</p>
       </div>
     </div>
   </div>

@@ -57,7 +57,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     <div class="row justify-content-center">
       <div class="col-lg-6 text-center">
         <h2>Fotografi</h2>
-        <p>Galeri seni virtual kami menampilkan koleksi menakjubkan dari lukisan, patung, dan seni digital yang dibuat oleh seniman pemula dan ternama dari seluruh dunia. Dengan gambar beresolusi tinggi, dan deskripsi mendetail, pengunjung dapat menghargai detail rumit dan cerita di balik setiap karya.</p>
+        <p>Selamat datang di ruang fotografi di Virtual Art Gallery. Di sini, Anda akan menemukan kumpulan gambar yang memukau, menangkap momen-momen berharga dan pemandangan yang menakjubkan dari berbagai sudut pandang. Setiap foto menggambarkan cerita yang unik dan emosi yang mendalam, dari potret manusia yang penuh dengan ekspresi hingga pemandangan alam yang menakjubkan. Mari telusuri galeri kami dan biarkan diri Anda terhanyut oleh keindahan dan kekuatan yang dimiliki oleh setiap foto yang dipamerkan.</p>
       </div>
     </div>
   </div>
