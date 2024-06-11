@@ -39,8 +39,8 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
         <li class="dropdown"><a href="#" class="active">Gallery <i class="bi bi-chevron-down dropdown-indicator"></i></a>
           <ul>
             <li><a href="lukisan.php">Lukisan</a></li>
-            <li><a href="patung.php" class="active">Patung</a></li>
-            <li><a href="fotografi.php">Fotografi</a></li>
+            <li><a href="patung.php">Patung</a></li>
+            <li><a href="fotografi.php" class="active">Fotografi</a></li>
           </ul>
         </li>
         <li><a href="about.php">About</a></li>
@@ -68,7 +68,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     <section id="gallery" class="gallery">
       <div class="container-fluid">
 
-        <div class="row gy-4 justify-content-center">
+      <div class="row gy-4 justify-content-center">
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
               <img src="./assets/img/Picsart_24-06-08_00-59-06-075.jpg" class="img-fluid" alt="">
@@ -196,7 +196,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 </footer>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></scrip>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/js/main.js"></script>
 
 </body>
