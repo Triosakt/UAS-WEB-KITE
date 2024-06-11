@@ -81,32 +81,32 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
         <div class="col-lg-8">
           <div class="gallery-description text-dark">
-            <h2>This is an example of portfolio detail</h2>
+            <h2>Lukisan Wajah Manusia di Dinding</h2>
             <p>
-              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+            Gambar ini menampilkan lukisan wajah manusia yang terpajang megah di dinding. Dengan detail yang halus dan ekspresi yang kuat, lukisan ini menciptakan kesan yang mendalam dan memikat bagi para pengamatnya. Setiap goresan kuas yang terperinci menggambarkan kehidupan dan emosi yang terpancar dari wajah yang digambarkan.
             </p>
             <p>
-              Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
+            Melalui perpaduan warna-warna yang dramatis dan kontras, lukisan ini menampilkan keindahan dalam bentuk seni visual. Sorotan cahaya yang halus menambah dimensi pada lukisan, menciptakan efek dramatis dan menyoroti setiap detail dengan indah. Dinding yang menjadi latar belakang memberikan ruang yang sempurna bagi lukisan ini untuk bersinar dan menarik perhatian.
             </p>
 
             <div class="testimonial-item">
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                Dengan setiap goresan kuas yang terampil, lukisan ini mengajak penonton untuk terhubung dengan emosi yang terpancar dari wajah yang digambarkan. Keindahan dan kekuatan lukisan ini tidak hanya terletak pada teknik yang digunakan, tetapi juga pada kemampuannya untuk menyampaikan pesan dan merangsang imajinasi pengamatnya.
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
               <div>
-                <h3>Sara Wilsson</h3>
-                <img src="https://placehold.co/200x200" class="testimonial-img mb-3" alt="" width="200" height="200">
+                <h3>Eduardo Romero</h3>
+                <img src="./assets/img/eduardo-romero-620.jpeg" class="testimonial-img mb-3" alt="" width="200" height="200">
                 <h4>Designer</h4>
               </div>
             </div>
 
             <p>
-              Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
+            Eduardo Romero adalah seorang seniman lukisan yang berbakat, dikenal karena karyanya yang realistis dan menyentuh. Dengan cermatnya detail dan kemampuannya menangkap ekspresi manusia, lukisan-lukisannya seringkali menginspirasi dan memikat hati para penontonnya. Dalam setiap karya, Eduardo menggambarkan kehidupan dan emosi manusia dengan kedalaman yang mengesankan. Gaya lukisannya yang sederhana namun kuat mampu menangkap esensi dari subjek yang digambarkannya.
 
             <p>
-              Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
+            Meskipun sedikit informasi yang tersedia tentang Eduardo, karyanya sendiri sudah cukup untuk menyampaikan pesan yang kuat dan menarik perhatian penontonnya.
             </p>
 
           </div>
@@ -116,9 +116,9 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
           <div class="gallery-info text-dark">
             <h3>Gallery information</h3>
             <ul>
-              <li><strong>Kategori</strong> Patung</li>
-              <li><strong>Tanggal Pembuatan</strong> 01 March, 2022</li>
-              <li><a href="#" class="btn-visit align-self-start">Lokasi</a></li>
+              <li><strong>Kategori</strong> Lukisan</li>
+              <li><strong>Tanggal Pembuatan</strong> 20 Desember, 2018</li>
+              <li><a href="#" class="btn-visit align-self-start">Chicago, IL, USA</a></li>
             </ul>
           </div>
         </div>
