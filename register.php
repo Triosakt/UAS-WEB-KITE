@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         echo "<script>
                 alert('Format email tidak valid.');
-                window.location.href = 'registrasi.html';
+                window.location.href = 'register.php';
               </script>";
         exit();
     }
@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ($password !== $confirm_password) {
         echo "<script>
                 alert('Konfirmasi password tidak sesuai.');
-                window.location.href = 'registrasi.html';
+                window.location.href = 'register.php';
               </script>";
         exit();
     }
@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Username sudah terdaftar
         echo "<script>
                 alert('Username sudah terdaftar, silakan pilih username lain.');
-                window.location.href = 'registrasi.html';
+                window.location.href = 'register.php';
               </script>";
         exit();
     }
@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ($stmt->execute()) {
         echo "<script>
                 alert('Berhasil membuat akun.');
-                window.location.href = 'login.html';
+                window.location.href = 'login.php';
               </script>";
         exit();
     } else {
@@ -66,3 +66,30 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $conn->close();
 }
 ?>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Registrasi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="assets/css/login.css" rel="stylesheet">
+</head>
+<body>
+    <div class="login-box">
+        <div class="form">
+          <h2>Registrasi</h2>
+          <form class="register-form" action="register.php" method="post">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="confirm_password" placeholder="Konfirmasi Password" required>
+            <button type="submit">Kirim</button>
+            <p class="message">Sudah terdaftar? <a href="login.php">Masuk</a></p>
+          </form>
+        </div>
+    </div>
+</body>
+</html>
+
+

@@ -32,14 +32,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             // Incorrect password
             echo "<script>
                     alert('Password yang Anda masukkan salah.');
-                    window.location.href = 'login.html';
+                    window.location.href = 'login.php';
                   </script>";
         }
     } else {
         // User not found
         echo "<script>
                 alert('Username yang Anda masukkan tidak terdaftar.');
-                window.location.href = 'login.html';
+                window.location.href = 'login.php';
               </script>";
     }
 
@@ -48,3 +48,28 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $conn->close();
 }
 ?>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="assets/css/login.css" rel="stylesheet">
+</head>
+<body>
+    <div class="login-box">
+        <div class="form">
+          <h2>Login</h2>
+          <form class="login-form" action="login.php" method="post">
+            <input type="text" name="username" placeholder="username" required/>
+            <input type="password" name="password" placeholder="password" required/>
+            <button type="submit">Kirim</button>
+            <p class="message">Belum daftar? <a href="register.php">Buat akun</a></p>
+            <p class="message"><a href="lupa-password.php">Ubah Password?</a></p>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
+

@@ -85,17 +85,14 @@ span {
   line-height: 0;
 }
 
-/* CSS for the logo and text alignment */
 .logo-img {
-  max-height: 40px; /* Adjust the height as needed */
+  max-height: 40px; 
 }
 
 .logo-text {
-  font-size: 1.5rem; /* Adjust the font size as needed */
-  color: #fff; /* Ensure text color contrasts with background */
+  font-size: 1.5rem; 
+  color: #fff; 
 }
-
-
 
 /*--------------------------------------------------------------
 # Desktop Navigation
@@ -246,9 +243,9 @@ span {
 
 .gallery .gallery-item img {
   transition: 0.3s;
-  max-width: 100%; /* Menyesuaikan ukuran gambar agar tidak melebihi lebar kontainer */
-  display: block; /* Memastikan gambar tampil dengan baik dalam layout */
-  height: auto; /* Memastikan proporsi gambar tetap terjaga */
+  max-width: 100%; 
+  display: block; 
+  height: auto;
 }
 
 .gallery .gallery-links {

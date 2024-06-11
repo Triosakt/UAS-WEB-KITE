@@ -2,7 +2,7 @@
 session_start(); // Start the session
 
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header('Location: login.php'); // Redirect to the login page if not logged in
+    header('Location: login.html'); // Redirect to the login page if not logged in
     exit;
 }
 ?>
@@ -56,7 +56,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6 text-center">
-        <h2>Welcome To Virtual Art Gallery </h2>
+        <h2>Patung</h2>
         <p>Galeri seni virtual kami menampilkan koleksi menakjubkan dari lukisan, patung, dan seni digital yang dibuat oleh seniman pemula dan ternama dari seluruh dunia. Dengan gambar beresolusi tinggi, dan deskripsi mendetail, pengunjung dapat menghargai detail rumit dan cerita di balik setiap karya.</p>
       </div>
     </div>
@@ -74,7 +74,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
               <img src="./assets/img/Picsart_24-06-08_00-59-06-075.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
                 <a href="./assets/img/tulang-bawang.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-1.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="https://images.app.goo.gl/B5ytLKcuooNqxMCJ8" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
