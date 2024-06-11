@@ -74,39 +74,39 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     <div class="container">
 
       <div class="image-container">
-      <img src="./assets/img/pexels-eduardo-romero-817034-1707640.jpg" alt="Placeholder image" width="400" height="400">
+      <img src="./assets/img/pexels-daniel-ape-795693.jpg" alt="Placeholder image" width="400" height="400">
       </div>
 
       <div class="row justify-content-between gy-4 mt-3 mb-4">
 
         <div class="col-lg-8">
           <div class="gallery-description text-dark">
-            <h2>This is an example of portfolio detail</h2>
+            <h2>Fotografi Siluet Hutan</h2>
             <p>
-              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+            Gambar ini menampilkan keanggunan alam yang memukau dalam bentuk siluet hutan yang megah. Dengan sorotan cahaya senja yang lembut merayap di antara rimbunnya pepohonan, gambar ini menawarkan pemandangan yang memukau dan mempesona. Pepohonan yang menjulang tinggi terhadap langit senja memberikan kesan dramatis dan menambah nuansa keajaiban alam yang hadir dalam gambar ini.
             </p>
             <p>
-              Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
+            Di balik keheningan dan kegelapan, gambar ini mengungkapkan keindahan alam yang alami dan mengundang pengamat untuk merenung. Siluet hutan yang gelap memberikan sentuhan misteri dan keanggunan yang melampaui kata-kata. Seperti lukisan alam yang hidup, gambar ini menjadi sumber inspirasi bagi mereka yang mencari kedamaian dan keindahan dalam alam.
             </p>
 
             <div class="testimonial-item">
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                Dari harmoni warna-warna senja hingga komposisi yang indah antara cahaya dan bayangan, gambar ini membangkitkan rasa kagum terhadap keindahan alam yang tiada tara. Dengan setiap detilnya yang terperinci, gambar ini mengajak penonton untuk terhubung dengan alam dan menghargai kebesaran ciptaan ini.
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
               <div>
-                <h3>Sara Wilsson</h3>
-                <img src="https://placehold.co/200x200" class="testimonial-img mb-3" alt="" width="200" height="200">
+                <h3>Daniel Ape</h3>
+                <img src="./assets/img/daniel-ap-856.jpg" class="testimonial-img mb-3" alt="" width="200" height="200">
                 <h4>Designer</h4>
               </div>
             </div>
 
             <p>
-              Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
+            Daniel Ape adalah seorang desainer berbakat yang aktif mengunggah karyanya di platform online. Dikenal karena kepiawaiannya dalam menggabungkan elemen desain yang beragam, Daniel Ape membagikan karya-karya desainnya yang menarik perhatian dengan keunikan dan kreativitasnya. Dari desain grafis hingga ilustrasi, karya-karya Daniel Ape memancarkan kecerdasan dan visi artistiknya yang khas.
 
             <p>
-              Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
+              
             </p>
 
           </div>
@@ -116,9 +116,9 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
           <div class="gallery-info text-dark">
             <h3>Gallery information</h3>
             <ul>
-              <li><strong>Kategori</strong> Patung</li>
-              <li><strong>Tanggal Pembuatan</strong> 01 March, 2022</li>
-              <li><a href="#" class="btn-visit align-self-start">Lokasi</a></li>
+              <li><strong>Kategori</strong> Lukisan</li>
+              <li><strong>Tanggal Pembuatan</strong> 09 Januari, 2017</li>
+              <li><a href="#" class="btn-visit align-self-start">Probolinggo, Jawa Timur</a></li>
             </ul>
           </div>
         </div>
