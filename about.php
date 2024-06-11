@@ -54,7 +54,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
       <div class="row justify-content-center">
         <div class="col-lg-6 text-center">
           <h2>About</h2>
-          <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+          <p>Selamat datang di Virtual Art Gallery, sebuah tempat di mana seni dari berbagai penjuru dunia berkumpul untuk dinikmati. Galeri kami memberikan pengalaman unik dan imersif, memungkinkan Anda menjelajahi dan menghargai seni dari kenyamanan rumah Anda.</p>
         </div>
       </div>
     </div>
@@ -69,7 +69,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
       </div>
       <div class="col-lg-8 content text-dark">
         <p class="fst-italic mt-3">
-          Welcome to the Virtual Art Gallery, where we showcase a diverse collection of art from around the world. Our gallery provides a unique and immersive experience, allowing you to explore and appreciate art from the comfort of your home.
+        Virtual Art Gallery menampilkan beragam koleksi seni, termasuk lukisan, patung, dan fotografi. Kami mendukung para seniman dengan menyediakan platform untuk memamerkan karya mereka dan menjangkau audiens global. Setiap bulan, kami mengadakan pameran virtual yang menyoroti tema dan seniman yang berbeda.
         </p>
         <div class="row">
           <div class="col-lg-6">
@@ -77,7 +77,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
               <li class="d-flex align-items-center"><i class="bi bi-chevron-right text-success me-2"></i><strong>Established:</strong><span class="ms-2">2023</span></li>
               <li class="d-flex align-items-center"><i class="bi bi-chevron-right text-success me-2"></i><strong>Website:</strong><span class="ms-2">www.virtualgallery.com</span></li>
               <li class="d-flex align-items-center"><i class="bi bi-chevron-right text-success me-2"></i><strong>Contact:</strong><span class="ms-2">+123 456 7890</span></li>
-              <li class="d-flex align-items-center"><i class="bi bi-chevron-right text-success me-2"></i><strong>Location:</strong><span class="ms-2">New York, USA</span></li>
+              <li class="d-flex align-items-center"><i class="bi bi-chevron-right text-success me-2"></i><strong>Location:</strong><span class="ms-2">Bandar Lampung, Indonesia</span></li>
             </ul>
           </div>
           <div class="col-lg-6">
@@ -90,10 +90,10 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
           </div>
         </div>
         <p>
-          Our gallery features a wide range of art forms, including paintings, sculptures, and photography. We aim to support artists by providing a platform to showcase their work and reach a global audience. Each month, we host virtual exhibitions that highlight different themes and artists.
+        Kami berkomitmen untuk menjadi jembatan antara seniman dan penikmat seni, memperkaya pengalaman seni di era digital. Virtual Art Gallery hadir untuk menginspirasi dan mendukung kreativitas di seluruh dunia.
         </p>
         <p>
-          Join us on this journey to explore the world of art in a new and exciting way. Become a member to enjoy exclusive access to special events, early exhibition previews, and much more.
+        Mari bergabung bersama kami dalam perjalanan mengeksplorasi dunia seni dengan cara yang baru dan menarik. Jadilah anggota untuk menikmati akses eksklusif ke acara khusus, pratinjau pameran awal, dan banyak lagi.
         </p>
       </div>
     </div>
