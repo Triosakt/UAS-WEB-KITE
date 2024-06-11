@@ -118,7 +118,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
             <ul>
               <li><strong>Kategori</strong> Lukisan</li>
               <li><strong>Tanggal Pembuatan</strong> 09 Januari, 2017</li>
-              <li><a href="#" class="btn-visit align-self-start">Probolinggo, Jawa Timur</a></li>
+              <li><a href="#" class="btn-visit align-self-start">Malang, Jawa Timur</a></li>
             </ul>
           </div>
         </div>
