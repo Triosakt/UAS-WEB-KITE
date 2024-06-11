@@ -79,19 +79,17 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
         <div class="col-lg-8">
           <div class="gallery-description text-dark">
-            <h2>This is an example of portfolio detail</h2>
+            <h2>Patung Empat Marga Tulang Bawang Barat</h2>
             <p>
-              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-            </p>
+            Patung Empat Marga atau disebut juga Megow Pak merupakan salah satu ikon yang sangat penting bagi masyarakat setempat yang menjadi spot selfies favorit yang ada di Tulang Bawang Barat Sejarah Patung empat marga ini dimulai pada tahun 2018 saat Bupati Tulang Bawang Barat merencanakan patung yang menggambarkan keberagaman suku bangsa daerah Tulang Bawang Barat, yang mana patung ini menyimbolkan persatuan dan kesatuan masyarakat Tulang Bawang Barat. Dengan melalui proses yang sangat panjang, pada tahun 2019 akhirnya dimulai pembangunan patung ini dan selesai pada tahun 2021.
             <p>
-              Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
+            Patung ini memiliki tinggi sekitar 20 meter, dengan ciri khas yang menggambarkan keunikan setiap suku bangsa. Terdiri dari tiga pria, satu wanita, dan terdiri dengan empat suku bangsa, yaitu Jawa, Lampung, Sunda, dan Tionghoa. Patung Jawa menggambarkan keanggunan dan kehalusan budaya Jawa. Patung Lampung menggambarkan keberanian dan keindahan alam Lampung. Patung Sunda menggambarkan keindahan seni dan kearifan lokal Sunda. Dan patung Tionghoa menggambarkan kekayaan budaya Tionghoa dan bersemangat berbisnis.
             </p>
 
             <div class="testimonial-item">
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                <i class="bi bi-quote quote-icon-right"></i>
+                Patung Empat Marga ini didesain sangat detail untuk memperlihatkan setiap elemen yang dilengkapi dengan aksesoris dan atribut dari ciri khas empat suku bangsa tersebut. Seperti patung Jawa dilengkapi dengan wayang dan gamelan, patung Lampung dilengkapi dengan pakaian adat dan keris, patung Sunda dilengkapi dengan angklung  dan kebaya, dan patung Tionghoa dilengkapi dengan naga dan kipas. 
               </p>
               <div>
                 <h3>Sara Wilsson</h3>
