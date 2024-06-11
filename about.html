@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Virtual Art Gallery</title>
+    <!-- Include CSS Files -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .team {
+            margin-top: 20px;
+        }
+        .team-member {
+            margin-bottom: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Virtual Art Gallery</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>About Us</h1>
+        <p>Welcome to the Virtual Art Gallery! We are a digital space dedicated to showcasing beautiful and unique artworks from artists all over the world. Our mission is to provide a platform where art lovers can explore, appreciate, and connect with the artistic community.</p>
+        
+        <h2>Our Mission</h2>
+        <p>Our mission is to make art accessible to everyone, regardless of their location. We believe that art has the power to inspire, educate, and transform lives. By leveraging the power of technology, we aim to bring the art gallery experience to the comfort of your home.</p>
+        
+        <h2>Meet the Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <h3>John Doe</h3>
+                <p>Founder & Curator</p>
+                <p>John has over 20 years of experience in the art industry and is passionate about discovering and promoting new talents.</p>
+            </div>
+            <div class="team-member">
+                <h3>Jane Smith</h3>
+                <p>Art Director</p>
+                <p>Jane is an accomplished artist herself and has a keen eye for detail. She oversees the selection and presentation of artworks in our gallery.</p>
+            </div>
+            <div class="team-member">
+                <h3>Emily Johnson</h3>
+                <p>Community Manager</p>
+                <p>Emily engages with our community of artists and art lovers, ensuring a vibrant and supportive environment.</p>
+            </div>
+        </div>
+        
+        <p>If you have any questions or would like to learn more about our gallery, please don't hesitate to <a href="contact.html">contact us</a>.</p>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Virtual Art Gallery. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
