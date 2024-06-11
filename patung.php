@@ -39,8 +39,8 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
         <li class="dropdown"><a href="#" class="active">Gallery <i class="bi bi-chevron-down dropdown-indicator"></i></a>
           <ul>
             <li><a href="lukisan.php">Lukisan</a></li>
-            <li><a href="patung.php">Patung</a></li>
-            <li><a href="fotografi.php" class="active">Fotografi</a></li>
+            <li><a href="patung.php" class="active">Patung</a></li>
+            <li><a href="fotografi.php">Fotografi</a></li>
           </ul>
         </li>
         <li><a href="about.php">About</a></li>
