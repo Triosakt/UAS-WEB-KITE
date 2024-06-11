@@ -92,17 +92,16 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                 Patung Empat Marga ini didesain sangat detail untuk memperlihatkan setiap elemen yang dilengkapi dengan aksesoris dan atribut dari ciri khas empat suku bangsa tersebut. Seperti patung Jawa dilengkapi dengan wayang dan gamelan, patung Lampung dilengkapi dengan pakaian adat dan keris, patung Sunda dilengkapi dengan angklung  dan kebaya, dan patung Tionghoa dilengkapi dengan naga dan kipas. 
               </p>
               <div>
-                <h3>Sara Wilsson</h3>
-                <img src="https://placehold.co/200x200" class="testimonial-img mb-3" alt="">
+                <h3>I Nyoman Nuarta</h3>
+                <img src="./assets/img/images (1).jpeg" class="testimonial-img mb-3" alt="" height="200" width="200">
                 <h4>Designer</h4>
               </div>
             </div>
 
             <p>
-              Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
-
+            Pencipta patung ini adalah I Nyoman Nuarta, seorang seniman patung ternama asal Bali yang juga dikenal sebagai pencipta Garuda Wisnu Kencana di Bali. Patung Empat Marga ini tidak hanya menjadi ikon Tubaba tetapi juga simbol persatuan dan kekayaan budaya Lampung.
             <p>
-              Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
+            I Nyoman Nuarta adalah salah satu seniman patung terkemuka di Indonesia, lahir pada tanggal 14 November 1951 di Tabanan, Bali. Ia dikenal luas karena karya-karya monumental dan inovatifnya dalam seni patung yang sering kali menggabungkan unsur-unsur budaya Indonesia dengan teknik modern.
             </p>
 
           </div>
@@ -113,8 +112,8 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
             <h3>Gallery information</h3>
             <ul>
               <li><strong>Kategori</strong> Patung</li>
-              <li><strong>Tanggal Pembuatan</strong> 01 March, 2022</li>
-              <li><a href="#" class="btn-visit align-self-start">Lokasi</a></li>
+              <li><strong>Tanggal Pembuatan</strong> 04 Januari, 2016</li>
+              <li><a href="#" class="btn-visit align-self-start">Tulang Bawang Barat, Lampung</a></li>
             </ul>
           </div>
         </div>
