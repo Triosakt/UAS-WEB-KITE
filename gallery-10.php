@@ -81,32 +81,32 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
         <div class="col-lg-8">
           <div class="gallery-description text-dark">
-            <h2>This is an example of portfolio detail</h2>
+            <h2>Suasana Hari Ulang Tahun Kemerdekaan Indonesia</h2>
             <p>
-              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+            Gambar ini menangkap suasana pasar yang ramai di salah satu kota besar pada saat perayaan ulang tahun kemerdekaan Indonesia. Terlihat berbagai spanduk dan bendera merah putih yang menggantung di atas jalan, mempromosikan berbagai merek terkenal seperti SHARP dan Doraemon. Foto ini menggambarkan kesibukan sehari-hari di area komersial dengan toko-toko elektronik di kedua sisi jalan. Tanda-tanda dari merek terkenal seperti Toshiba, Panasonic, dan banyak lainnya menambah keaslian suasana pasar ini. Bayangan seseorang di latar depan menambah dimensi hidup pada foto ini, seolah mengajak penonton untuk ikut merasakan keramaian dan hiruk-pikuk pasar yang lebih meriah karena suasana perayaan kemerdekaan.
             </p>
             <p>
-              Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
+            Selain menampilkan aspek komersial, foto ini juga mencerminkan rasa kebersamaan dan semangat nasionalisme yang tinggi di kalangan masyarakat. Hiasan-hiasan berwarna merah putih yang menggantung di sepanjang jalan tidak hanya memperindah suasana tetapi juga mengingatkan kita akan pentingnya persatuan dan kesatuan bangsa. Orang-orang yang lalu lalang di bawah dekorasi kemerdekaan ini menciptakan pemandangan yang kontras namun harmonis antara modernitas kota dan tradisi perayaan nasional. Eduardo Romero berhasil menangkap momen ini dengan sempurna, menunjukkan bagaimana elemen-elemen kecil dalam kehidupan sehari-hari dapat berkontribusi pada rasa kebanggaan nasional dan kebersamaan.
             </p>
 
             <div class="testimonial-item">
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                Gambar ini juga menampilkan sisi lain dari pasar yang menjadi saksi sejarah perjalanan bangsa. Orang-orang yang beraktivitas di pasar ini seolah tak hanya sedang bertransaksi, tetapi juga merayakan identitas dan kebanggaan sebagai bagian dari masyarakat Indonesia. Kehadiran dekorasi kemerdekaan di tempat-tempat umum seperti ini menunjukkan bagaimana semangat perayaan nasional meresap hingga ke sudut-sudut kehidupan sehari-hari, mempererat rasa solidaritas dan kebanggaan akan kemerdekaan yang telah diperjuangkan bersama.
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
               <div>
-                <h3>Sara Wilsson</h3>
-                <img src="https://placehold.co/200x200" class="testimonial-img mb-3" alt="" width="200" height="200">
+                <h3>Ovan</h3>
+                <img src="./assets/img/ovan-455.jpeg" class="testimonial-img mb-3" alt="" width="200" height="200">
                 <h4>Designer</h4>
               </div>
             </div>
 
             <p>
-              Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
+            Ovan adalah seorang fotografer dan desainer visual yang karyanya sering mengabadikan kehidupan perkotaan dan suasana sehari-hari. Dengan keahlian dalam menangkap momen autentik, Eduardo berhasil menggambarkan esensi kehidupan urban melalui lensanya. Karyanya mencakup berbagai aspek dari kehidupan perkotaan, mulai dari keramaian pasar hingga keheningan lorong-lorong kota. Eduardo sering menggunakan media fotografi untuk bercerita, mengajak penontonnya merasakan atmosfer dan dinamika tempat yang ia abadikan.
 
             <p>
-              Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
+              
             </p>
 
           </div>
@@ -116,9 +116,9 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
           <div class="gallery-info text-dark">
             <h3>Gallery information</h3>
             <ul>
-              <li><strong>Kategori</strong> Patung</li>
-              <li><strong>Tanggal Pembuatan</strong> 01 March, 2022</li>
-              <li><a href="#" class="btn-visit align-self-start">Lokasi</a></li>
+              <li><strong>Kategori</strong> Fotografi</li>
+              <li><strong>Tanggal Pembuatan</strong> 17 Desember, 2016</li>
+              <li><a href="#" class="btn-visit align-self-start">Sumur Bandung, Jawa Barat</a></li>
             </ul>
           </div>
         </div>
