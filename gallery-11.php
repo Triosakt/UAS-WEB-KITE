@@ -81,24 +81,24 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
         <div class="col-lg-8">
           <div class="gallery-description text-dark">
-            <h2>This is an example of portfolio detail</h2>
+            <h2>Fotografi Burung dan Bunga</h2>
             <p>
-              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+            Di sebuah sudut yang tenang di tepi danau, seekor burung raja udang yang menawan bertengger dengan anggun di atas keranjang bunga. Warna bulu biru cemerlang dan oranye menyala burung ini kontras indah dengan kelopak bunga yang beraneka warna di sekitarnya, menciptakan sebuah pemandangan yang penuh pesona. Keranjang anyaman sederhana yang dipenuhi dengan mawar merah, putih, dan bunga-bunga lainnya menjadi latar belakang yang sempurna, mempertegas keindahan alami dari burung tersebut. Dalam keheningan pagi, burung itu tampak seolah-olah menikmati momen istirahatnya, memberikan kesempatan bagi alam untuk menunjukkan harmoni dan keindahannya.
             </p>
             <p>
-              Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
+            Burung raja udang ini tidak hanya memikat dengan warnanya yang mencolok, tetapi juga dengan ketenangannya saat bertengger di atas keranjang. Mata kecilnya yang tajam memperhatikan sekeliling dengan waspada, sementara tubuhnya tetap tenang dan stabil. Kehadirannya membawa kehidupan dan dinamika ke dalam rangkaian bunga, yang seolah-olah berbicara tentang keajaiban alam yang sering tersembunyi di balik hiruk pikuk kehidupan sehari-hari. Bunga-bunga di sekitarnya, dengan kelopak yang lembut dan warna yang cerah, tampak lebih hidup dan menawan dengan burung tersebut sebagai pusat perhatian.
             </p>
 
             <div class="testimonial-item">
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                Pemandangan ini adalah pengingat betapa indahnya interaksi antara flora dan fauna di alam liar. Burung dan bunga, dua elemen alam yang sering kita temui secara terpisah, dalam gambar ini menyatu dalam sebuah komposisi yang sempurna. 
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
               <div>
-                <h3>Sara Wilsson</h3>
-                <img src="https://placehold.co/200x200" class="testimonial-img mb-3" alt="" width="200" height="200">
-                <h4>Designer</h4>
+                <h3>Nick Brandt</h3>
+                <img src="./assets/img/Screenshot 2024-06-12 160621.png" class="testimonial-img mb-3" alt="" width="200" height="200">
+                <h4>Fotografer</h4>
               </div>
             </div>
 
@@ -116,7 +116,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
           <div class="gallery-info text-dark">
             <h3>Gallery information</h3>
             <ul>
-              <li><strong>Kategori</strong> Patung</li>
+              <li><strong>Kategori</strong> Fotografi</li>
               <li><strong>Tanggal Pembuatan</strong> 01 March, 2022</li>
               <li><a href="#" class="btn-visit align-self-start">Lokasi</a></li>
             </ul>
