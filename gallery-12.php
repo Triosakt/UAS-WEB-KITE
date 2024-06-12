@@ -97,7 +97,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
               </p>
               <div>
                 <h3>Sara Wilsson</h3>
-                <img src="https://placehold.co/200x200" class="testimonial-img mb-3" alt="" width="200" height="200">
+                <img src="./assets/img/" class="testimonial-img mb-3" alt="" width="200" height="200">
                 <h4>Designer</h4>
               </div>
             </div>
@@ -118,7 +118,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
             <ul>
               <li><strong>Kategori</strong> Patung</li>
               <li><strong>Tanggal Pembuatan</strong> 01 March, 2022</li>
-              <li><a href="#" class="btn-visit align-self-start">Lokasi</a></li>
+              <li><a href="#" class="btn-visit align-self-start">London</a></li>
             </ul>
           </div>
         </div>
