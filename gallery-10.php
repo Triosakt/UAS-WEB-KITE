@@ -74,7 +74,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     <div class="container">
 
       <div class="image-container">
-      <img src="./assets/img/pexels-eduardo-romero-817034-1707640.jpg" alt="Placeholder image" width="400" height="400">
+      <img src="./assets/img/pexels-knownasovan-194930.jpg" alt="Placeholder image" width="400" height="400">
       </div>
 
       <div class="row justify-content-between gy-4 mt-3 mb-4">

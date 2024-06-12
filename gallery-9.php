@@ -74,7 +74,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     <div class="container">
 
       <div class="image-container">
-      <img src="./assets/img/pexels-eduardo-romero-817034-1707640.jpg" alt="Placeholder image" width="400" height="400">
+      <img src="./assets/img/pexels-eberhardgross-2437286.jpg" alt="Placeholder image" width="400" height="400">
       </div>
 
       <div class="row justify-content-between gy-4 mt-3 mb-4">
@@ -97,7 +97,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
               </p>
               <div>
                 <h3>Sara Wilsson</h3>
-                <img src="https://placehold.co/200x200" class="testimonial-img mb-3" alt="" width="200" height="200">
+                <img src="./assets/img/pexels-eberhardgross-2086361.jpg" class="testimonial-img mb-3" alt="" width="200" height="200">
                 <h4>Designer</h4>
               </div>
             </div>
